@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href ="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href ="tablet.css">
+</head>
+<body>
+    
+    <nav class="navbar">  
+        <a href ="#" class="toggle-button"  ></a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <div class="main">
+            <h1 class="headings"> I AM <br>A FULLSTACK DEVELOPER</h1>
+            <button class="btn">
+                Hire Me
+            </button>
+        </div>
+       
+
+    </section>
+    <section id="about">
+        <h1 class="headings">ABOUT ME</h1>
+        <div id="pic">
+            
+            <img src="afrina.png" alt="intro pic" class="">
+            <div id="intro">
+                <h2>AFRINA RAHAMAN</h2>
+                <p>Lorem ipsum dolor, 
+                    sit amet consectetur adipisicing elit.
+                     Expedita facere aliquam magni 
+                     deleniti beatae enim dignissimos 
+                     dolores nostrum qui numquam alias facilis et, 
+                     nemo quam! Distinctio recusandae 
+                     aliquid esse sed?</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h1 class="headings">PORTOLIO</h1>
+        <div class="gallery">
+            <img src="Portfolio/img1.jpg" alt="">
+            <img src="Portfolio/img2.jpg" alt="">
+            <img src="Portfolio/img3.jpg" alt="">
+            <img src="Portfolio/img4.jpg" alt="">
+            <img src="Portfolio/img5.jpg" alt="">
+            <img src="Portfolio/img6.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 class="headings">SERVICES</h1>
+        <div class="row">
+            <div class="box">
+                <img src="Services/png.png" alt="">
+                <h1 class="headings">C# Program</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Facilis, molestiae ipsam! Impedit blanditiis fugit consectetur consequuntur, 
+                    iure vel doloremque ad, esse, minima ut 
+                    enim accusamus in corrupti ipsa adipisci officiis!</p>
+            </div>
+            <div class="box">
+                <img src="Services/png1.png" alt="">
+                <h1 class="headings">Clientside Programming</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Facilis, molestiae ipsam! Impedit blanditiis fugit consectetur consequuntur, 
+                    iure vel doloremque ad, esse, minima ut 
+                    enim accusamus in corrupti ipsa adipisci officiis!</p>
+            </div>
+            <div class="box">
+                <h1 class="headings">API</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Facilis, molestiae ipsam! Impedit blanditiis fugit consectetur consequuntur, 
+                    iure vel doloremque ad, esse, minima ut 
+                    enim accusamus in corrupti ipsa adipisci officiis!</p>
+            </div>
+            <div class="box">
+                <h1 class="headings">PHP</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Facilis, molestiae ipsam! Impedit blanditiis fugit consectetur consequuntur, 
+                    iure vel doloremque ad, esse, minima ut 
+                    enim accusamus in corrupti ipsa adipisci officiis!</p>
+            </div>
+            <div class="box">
+                <h1 class="headings">Linux</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Facilis, molestiae ipsam! Impedit blanditiis fugit consectetur consequuntur, 
+                    iure vel doloremque ad, esse, minima ut 
+                    enim accusamus in corrupti ipsa adipisci officiis!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="" cols="30" rows="10" placeholder="Write here"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </section>
+</body>
+</html>
